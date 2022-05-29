@@ -28,7 +28,7 @@ for id, testcase in enumerate(testcases):
     print("Input:\t", testcase['input']['strs'])
     print("Output:\t", sol.groupAnagrams(testcase['input']['strs']))
     print("Exp.:\t", testcase['output'])
-    # 정답 여부 출력
+    # 테스트케이스 통과 여부 출력
     is_correct = True
     for anagram in sol.groupAnagrams(testcase['input']['strs']):
         if sorted(anagram) not in testcase['output']:

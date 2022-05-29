@@ -27,7 +27,7 @@ for id, testcase in enumerate(testcases):
     print("Input:\t", testcase['input'])
     print("Output:\t", sol.mostCommonWord(testcase['input']['paragraph'], testcase['input']['banned']))
     print("Exp.:\t", testcase['output'])
-    # 정답 여부 출력
+    # 테스트케이스 통과 여부 출력
     if sol.mostCommonWord(testcase['input']['paragraph'], testcase['input']['banned']) == testcase['output']:
         print("⭕️")
     else:

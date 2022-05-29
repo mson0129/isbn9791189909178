@@ -17,7 +17,7 @@ for id, testcase in enumerate(testcases):
     print("Input:\t", testcase['input']['s'])
     print("Output:\t", sol.longestPalindrome(testcase['input']['s']))
     print("Exp.:\t", testcase['output'])
-    # 정답 여부 출력
+    # 테스트케이스 통과 여부 출력
     if sol.longestPalindrome(testcase['input']['s']) in testcase['output']:
         print("⭕️")
     else:

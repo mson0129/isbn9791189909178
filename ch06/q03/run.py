@@ -23,7 +23,7 @@ for id, testcase in enumerate(testcases):
     print("Input:\t", testcase['input']['logs'])
     print("Output:\t", sol.reorderLogFiles(testcase['input']['logs']))
     print("Exp.:\t", testcase['output'])
-    # 정답 여부 출력
+    # 테스트케이스 통과 여부 출력
     if sol.reorderLogFiles(testcase['input']['logs']) == testcase['output']:
         print("⭕️")
     else:
