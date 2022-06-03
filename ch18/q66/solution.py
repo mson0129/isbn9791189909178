@@ -2,6 +2,6 @@ from typing import *
 import collections, re
 
 class Solution:
-    def solution(self) -> None:
+    def search(self, nums: List[int], target: int) -> int:
         # Your Solution Here
         pass

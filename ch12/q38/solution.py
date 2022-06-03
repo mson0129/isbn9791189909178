@@ -2,6 +2,6 @@ from typing import *
 import collections, re
 
 class Solution:
-    def solution(self) -> None:
+    def findItinerary(self, tickets: List[List[str]]) -> List[str]:
         # Your Solution Here
         pass

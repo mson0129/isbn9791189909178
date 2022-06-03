@@ -1,5 +1,5 @@
-# ###. name
-# https://leetcode.com/problems/name/
+# 371. Sum of Two Integers
+# https://leetcode.com/problems/sum-of-two-integers/
 
 import solution
 
@@ -29,7 +29,7 @@ for id, testcase in enumerate(testcases):
     print("Output:\t")
     print("Exp.:\t", testcase['output'])
     # 테스트케이스 통과 여부 출력
-    if sol.solution(testcase['input']['s']) in testcase['output']:
+    if sol.getSum(testcase['input']['s']) in testcase['output']:
         print("⭕️")
     else:
         print("❌")

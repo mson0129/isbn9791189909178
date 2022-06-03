@@ -2,6 +2,6 @@ from typing import *
 import collections, re
 
 class Solution:
-    def solution(self) -> None:
+    def leastInterval(self, tasks: List[str], n: int) -> int:
         # Your Solution Here
         pass

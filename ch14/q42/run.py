@@ -1,5 +1,5 @@
-# ###. name
-# https://leetcode.com/problems/name/
+# 104. Maximum Depth of Binary Tree
+# https://leetcode.com/problems/maximum-depth-of-binary-tree/
 
 import solution
 
@@ -29,7 +29,7 @@ for id, testcase in enumerate(testcases):
     print("Output:\t")
     print("Exp.:\t", testcase['output'])
     # 테스트케이스 통과 여부 출력
-    if sol.solution(testcase['input']['s']) in testcase['output']:
+    if sol.maxDepth(testcase['input']['s']) in testcase['output']:
         print("⭕️")
     else:
         print("❌")

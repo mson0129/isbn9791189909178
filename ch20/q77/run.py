@@ -1,5 +1,5 @@
-# ###. name
-# https://leetcode.com/problems/name/
+# 424. Longest Repeating Character Replacement
+# https://leetcode.com/problems/longest-repeating-character-replacement/
 
 import solution
 
@@ -29,7 +29,7 @@ for id, testcase in enumerate(testcases):
     print("Output:\t")
     print("Exp.:\t", testcase['output'])
     # 테스트케이스 통과 여부 출력
-    if sol.solution(testcase['input']['s']) in testcase['output']:
+    if sol.characterReplacement(testcase['input']['s']) in testcase['output']:
         print("⭕️")
     else:
         print("❌")

@@ -2,6 +2,6 @@ from typing import *
 import collections, re
 
 class Solution:
-    def solution(self) -> None:
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         # Your Solution Here
         pass

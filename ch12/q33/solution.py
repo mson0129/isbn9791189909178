@@ -2,6 +2,6 @@ from typing import *
 import collections, re
 
 class Solution:
-    def solution(self) -> None:
+    def letterCombinations(self, digits: str) -> List[str]:
         # Your Solution Here
         pass

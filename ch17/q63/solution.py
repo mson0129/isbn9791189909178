@@ -2,6 +2,9 @@ from typing import *
 import collections, re
 
 class Solution:
-    def solution(self) -> None:
+    def sortColors(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
         # Your Solution Here
         pass

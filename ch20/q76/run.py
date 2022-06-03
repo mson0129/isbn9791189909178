@@ -1,5 +1,5 @@
-# ###. name
-# https://leetcode.com/problems/name/
+# 76. Minimum Window Substring
+# https://leetcode.com/problems/minimum-window-substring/
 
 import solution
 
@@ -29,7 +29,7 @@ for id, testcase in enumerate(testcases):
     print("Output:\t")
     print("Exp.:\t", testcase['output'])
     # 테스트케이스 통과 여부 출력
-    if sol.solution(testcase['input']['s']) in testcase['output']:
+    if sol.minWindow(testcase['input']['s']) in testcase['output']:
         print("⭕️")
     else:
         print("❌")

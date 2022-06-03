@@ -2,6 +2,6 @@ from typing import *
 import collections, re
 
 class Solution:
-    def solution(self) -> None:
+    def getSum(self, a: int, b: int) -> int:
         # Your Solution Here
         pass

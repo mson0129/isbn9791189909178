@@ -2,6 +2,6 @@ from typing import *
 import collections, re
 
 class Solution:
-    def solution(self) -> None:
+    def isValid(self, s: str) -> bool:
         # Your Solution Here
         pass

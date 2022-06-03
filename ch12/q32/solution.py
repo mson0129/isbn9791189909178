@@ -2,6 +2,6 @@ from typing import *
 import collections, re
 
 class Solution:
-    def solution(self) -> None:
+    def numIslands(self, grid: List[List[str]]) -> int:
         # Your Solution Here
         pass

@@ -2,6 +2,6 @@ from typing import *
 import collections, re
 
 class Solution:
-    def solution(self) -> None:
+    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         # Your Solution Here
         pass

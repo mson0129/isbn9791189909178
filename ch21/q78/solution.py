@@ -2,6 +2,6 @@ from typing import *
 import collections, re
 
 class Solution:
-    def solution(self) -> None:
+    def maxProfit(self, prices: List[int]) -> int:
         # Your Solution Here
         pass

@@ -2,6 +2,6 @@ from typing import *
 import collections, re
 
 class Solution:
-    def solution(self) -> None:
+    def characterReplacement(self, s: str, k: int) -> int:
         # Your Solution Here
         pass
